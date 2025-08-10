@@ -1,5 +1,9 @@
+let saludar = "Hola!"
+
 function saludo() {
-    alert("Hola")  
-}
+    alert(saludar)  
+};
 
-
+document.getElementById("holaDiv").addEventListener("click", function() {
+    alert(saludar + " Soy el div");
+});
